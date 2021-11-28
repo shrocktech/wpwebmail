@@ -80,3 +80,28 @@ function run_wpwebmail() {
 
 }
 run_wpwebmail();
+
+// Add page to dashboard
+
+function my_admin_menu() {
+		add_menu_page(
+			__( 'WP WebMail', 'my-textdomain' ),
+			__( 'WP WebMail', 'my-textdomain' ),
+			'edit_posts',
+			'wp-webmail',
+			'page_contents',
+			'dashicons-email',
+			3
+		);
+	}
+
+	add_action( 'admin_menu', 'my_admin_menu' );
+
+
+	function page_contents() {
+		?>
+			
+<img src="<?php echo plugin_dir_url( __FILE__ ) . 'images/roundcube.png'; ?>">
+
+		<?php
+	}
