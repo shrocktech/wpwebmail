@@ -100,8 +100,11 @@ function my_admin_menu() {
 
 	function page_contents() {
 		?>
-			
-<img src="<?php echo plugin_dir_url( __FILE__ ) . 'images/roundcube.png'; ?>">
+		<h2>This is just a demo image - remove for production</h2>
+<div>
+	<img  style="width: 1000px;" src="<?php echo plugin_dir_url( __FILE__ ) . 'images/roundcube.png'; ?>">
+</div>
+
 
 		<?php
 	}
