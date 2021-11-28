@@ -1,0 +1,5 @@
+{
+    "require": {
+        "roundcube/plugin-installer": "^0.3.1"
+    }
+}
