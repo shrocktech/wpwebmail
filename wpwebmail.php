@@ -15,7 +15,7 @@
  * @wordpress-plugin
  * Plugin Name:       WP Webmail
  * Plugin URI:        https://github.com/shrocktech/wpwebmail
- * Description:       This is a short description of what the plugin does. It's displayed in the WordPress admin area.
+ * Description:       Email and correspond with your customers right inside the dashboard of WordPress.
  * Version:           1.0.0
  * Author:            ShrockTech
  * Author URI:        https://github.com/shrocktech
