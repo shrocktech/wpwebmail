@@ -81,7 +81,7 @@ function run_wpwebmail() {
 }
 run_wpwebmail();
 
-// Add page to dashboard
+// Add Page Link to Admin Dashboard
 
 function my_admin_menu() {
 		add_menu_page(
@@ -100,7 +100,7 @@ function my_admin_menu() {
 
 	function page_contents() {
 		?>
-		<h2>This is just a demo image - remove for production</h2>
+		<h2>This is just a demo image of how the final product is expected to look - remove for production</h2>
 <div>
 	<img  style="width: 1000px;" src="<?php echo plugin_dir_url( __FILE__ ) . 'images/roundcube.png'; ?>">
 </div>
